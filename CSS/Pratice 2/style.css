@@ -1,0 +1,31 @@
+*{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#mainTopic{
+    color: blue;
+}
+#mainTopic::first-letter{
+    color: red;
+}
+#para{
+    background-color: cornflowerblue;
+    color: white;
+}
+button{
+    background-color: purple;
+    color: azure;
+}
+button{
+    background-color: yellow;
+    color: blue;
+}
+#para:nth-of-type(2n+1){
+   color: yellow;
+}
+#yes:checked+label{
+    color:darkgreen;
+}
+
+/* Specificity */
+/* #maincontent > div .main > .main > h1 */
