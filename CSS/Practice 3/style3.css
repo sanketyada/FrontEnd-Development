@@ -1,0 +1,12 @@
+li{
+    display: inline-block;
+}
+/* Inline-block behavior: 
+The inline-block display mode does
+ not support the default bullet
+  styling of <li> elements. 
+  The element becomes a block 
+  that behaves like an inline 
+  element, but it loses its
+   list-item styling, including 
+   the bullets. */
