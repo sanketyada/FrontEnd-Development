@@ -1,0 +1,13 @@
+.cotainer{
+    height: 50px;
+    width: 900px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+.cotainer div{
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 20px;
+}
