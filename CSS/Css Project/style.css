@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main_box{
+    background: url("photo\ \(1\).jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.btn-one{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn-one:hover{
+    font-size: 30px;
+}
+.sidebar{
+    position: fixed;
+    left: -300px;
+    background-color: rgba(245, 245, 245,.1);
+    height: 100vh;
+    width: 300px;
+    box-shadow: 0px 0px 6px white;
+    transition: .3s;
+}
+.sidebar .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    height: 60px;
+    box-shadow: 0px 0px 2px white;
+}
+.sidebar .btn-two i{
+    color: rgb(162, 158, 158);
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    left: 265px;
+    top: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.sidebar .btn-two i:hover{
+    font-size:27px;
+    color: white;
+}
+.sidebar .logo a{
+    position: absolute;
+    left: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+.sidebar .menu{
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: 80px;
+    font-size: 20px;
+}
+.sidebar .menu li{
+    margin: 0;
+    padding: 10px 20px;
+    background-color: transparent;
+    margin: 10px;
+}
+.sidebar .menu li:hover{
+    background-color: transparent;
+    margin: 10px;
+    box-shadow: 0px 0px 4px white;
+}
+.sidebar .menu li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+.sidebar .menu li i{
+    padding-right: 10px;
+}
+.sidebar .social{
+    position: absolute;
+    left: 25%;
+    bottom: 30px;
+}
+.sidebar .social i{
+    color: white;
+    opacity: 0.5;
+    padding: 0px 5px;
+}
+.sidebar .social i:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .sidebar{
+    left: 0px;
+}
+#check:checked ~ .btn-one i{
+    opacity: 0;
+}
