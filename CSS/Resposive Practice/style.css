@@ -1,0 +1,33 @@
+
+*{
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+h2{
+    color: #C14E13;
+}
+h1 > span{
+    color: #C14E13;
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width:300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    
+    margin-bottom: 20px;
+}
+.card img{
+    width: 100%;
+    border-radius: 20px;
+}
+@media (max-width:666px) {
+    #pets{
+        flex-wrap: wrap;
+    }}
